@@ -77,12 +77,12 @@ def delete_product(connection, product_id):
 
     return cursor.lastrowid
 
-if __name__ == '__main__':
-    connection = get_sql_connection()
-    # print(get_all_products(connection))
-    delete_product(connection,10)
-    # print(insert_new_product(connection, {
-    #     'product_name': 'potatoes2',
-    #     'uom_id': '1',
-    #     'price_per_unit': 100
-    # }))
+# if __name__ == '__main__':
+#     connection = get_sql_connection()
+#     # print(get_all_products(connection))
+#     delete_product(connection,10)
+#     # print(insert_new_product(connection, {
+#     #     'product_name': 'potatoes2',
+#     #     'uom_id': '1',
+#     #     'price_per_unit': 100
+#     # }))
